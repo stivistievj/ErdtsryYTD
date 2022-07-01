@@ -27,4 +27,3 @@ jobs:
       continue-on-error: true
     - name: create asset
       run: az ml data create -f assets/data/iris-csv-example.yml
-      working-directory: cli
